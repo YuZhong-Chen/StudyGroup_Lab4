@@ -8,7 +8,7 @@ FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
 # Arguments
 ##############################################################################
 
-ARG USERNAME=yuzhong
+ARG USERNAME=user
 ARG USERPASSWD=ubuntu
 ARG USERID=$UID
 ARG SHELL=zsh
@@ -18,7 +18,6 @@ ARG SHELL=zsh
 ##############################################################################
 
 LABEL org.opencontainers.image.authors="yuzhong"
-LABEL shell="${SHELL}"
 
 ##############################################################################
 # Set environment variables
@@ -111,5 +110,5 @@ RUN /home/${USERNAME}/.tmux/plugins/tpm/bin/install_plugins
 # Default command
 ##############################################################################
 
-SHELL ["/bin/${SHELL}", "-c"]
+SHELL ["/bin/zsh", "-c"]
 CMD ["zsh"]
