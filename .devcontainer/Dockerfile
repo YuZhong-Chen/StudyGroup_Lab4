@@ -59,6 +59,7 @@ RUN pip install \
     pytorchcv \
     torchinfo \
     flexgen \
+    matplotlib \
     wandb
 
 ##############################################################################

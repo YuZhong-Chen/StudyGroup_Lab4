@@ -4,28 +4,30 @@
     "black-formatter.interpreter": [
         "/opt/conda/bin/python3"
     ],
+    "black-formatter.args": ["--line-length=140"],
     "cSpell.words": [
         "activ",
         "autoaugment",
         "avgpool",
-        "CIFARNIN",
         "colab",
         "DCGAN",
         "fromarray",
         "kaiming",
         "lineplot",
         "matplotlib",
+        "MNIST",
+        "nrow",
         "optim",
         "pyplot",
         "pytorchcv",
-        "seaborn",
+        "randn",
         "Softmax",
-        "sourcery",
         "torchinfo",
         "torchvision",
         "tqdm",
         "trainloader",
         "unsqueeze",
-        "wandb"
+        "wandb",
+        "WGAN"
     ]
 }

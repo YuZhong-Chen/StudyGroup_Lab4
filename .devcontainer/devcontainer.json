@@ -24,7 +24,6 @@
                 "dotjoshjohnson.xml",
                 "tomoki1207.pdf",
                 "wayou.vscode-todo-highlight",
-                "hoovercj.vscode-power-mode",
                 "cweijan.vscode-office",
                 "tabnine.tabnine-vscode",
                 "waderyan.gitblame"
@@ -38,8 +37,6 @@
     },
     "runArgs": [
         "-it",
-        // "--hostname",
-        // "docker_AlexNet",
         "--network=host",
         "--ipc=host",
         // "--memory=16g",
